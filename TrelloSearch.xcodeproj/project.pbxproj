@@ -31,6 +31,83 @@
 			remoteGlobalIDString = AA29962A1ED9B50B00B10670;
 			remoteInfo = TrelloSearch;
 		};
+		AA2996661ED9B68100B10670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA29965C1ED9B68100B10670 /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F435027A1A6791B200038A29;
+			remoteInfo = OAuthSwift;
+		};
+		AA2996681ED9B68100B10670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA29965C1ED9B68100B10670 /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C48B28021AFA598D00C7DEF6;
+			remoteInfo = OAuthSwiftOSX;
+		};
+		AA29966A1ED9B68100B10670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA29965C1ED9B68100B10670 /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C4B6EE1E1BF74CE300443596;
+			remoteInfo = OAuthSwiftTVOS;
+		};
+		AA29966C1ED9B68100B10670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA29965C1ED9B68100B10670 /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C40890C01C11B37000E3146A;
+			remoteInfo = OAuthSwiftWatchOS;
+		};
+		AA29966E1ED9B68100B10670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA29965C1ED9B68100B10670 /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F451E3C5195B8CD80051434C;
+			remoteInfo = OAuthSwiftDemo;
+		};
+		AA2996701ED9B68100B10670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA29965C1ED9B68100B10670 /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C49FD5241AFB5DF500791E1A;
+			remoteInfo = OAuthSwiftOSXDemo;
+		};
+		AA2996721ED9B68100B10670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA29965C1ED9B68100B10670 /* OAuthSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C4D50DF71BFB693F0053B624;
+			remoteInfo = OAuthSwiftTests;
+		};
+		AA2996741ED9B6CD00B10670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA29965C1ED9B68100B10670 /* OAuthSwift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F43502791A6791B200038A29;
+			remoteInfo = OAuthSwift;
+		};
+		AAC748EB1EED743F005824CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAC748E61EED743E005824CF /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06165F241D8110E600722320;
+			remoteInfo = Charts;
+		};
+		AAC748ED1EED743F005824CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAC748E61EED743E005824CF /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06165F2E1D8110E600722320;
+			remoteInfo = ChartsTests;
+		};
+		AAC748FA1EED75D6005824CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAC748E61EED743E005824CF /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 06165F231D8110E600722320;
+			remoteInfo = Charts;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +124,8 @@
 		AA29964A1ED9B50B00B10670 /* TrelloSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrelloSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA29964E1ED9B50B00B10670 /* TrelloSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrelloSearchUITests.swift; sourceTree = "<group>"; };
 		AA2996501ED9B50B00B10670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA29965C1ED9B68100B10670 /* OAuthSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OAuthSwift.xcodeproj; path = "../GitHub Repositories/OAuthSwift/OAuthSwift.xcodeproj"; sourceTree = "<group>"; };
+		AAC748E61EED743E005824CF /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../GitHub Repositories/Charts/Charts.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,10 +156,12 @@
 		AA2996221ED9B50A00B10670 = {
 			isa = PBXGroup;
 			children = (
+				AAC748E61EED743E005824CF /* Charts.xcodeproj */,
 				AA29962D1ED9B50B00B10670 /* TrelloSearch */,
 				AA2996421ED9B50B00B10670 /* TrelloSearchTests */,
 				AA29964D1ED9B50B00B10670 /* TrelloSearchUITests */,
 				AA29962C1ED9B50B00B10670 /* Products */,
+				AA29965C1ED9B68100B10670 /* OAuthSwift.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +206,29 @@
 			path = TrelloSearchUITests;
 			sourceTree = "<group>";
 		};
+		AA29965D1ED9B68100B10670 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA2996671ED9B68100B10670 /* OAuthSwift.framework */,
+				AA2996691ED9B68100B10670 /* OAuthSwift.framework */,
+				AA29966B1ED9B68100B10670 /* OAuthSwift.framework */,
+				AA29966D1ED9B68100B10670 /* OAuthSwift.framework */,
+				AA29966F1ED9B68100B10670 /* OAuthSwiftDemo.app */,
+				AA2996711ED9B68100B10670 /* OAuthSwiftOSXDemo.app */,
+				AA2996731ED9B68100B10670 /* OAuthSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAC748E71EED743E005824CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAC748EC1EED743F005824CF /* Charts.framework */,
+				AAC748EE1EED743F005824CF /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +243,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				AAC748FB1EED75D6005824CF /* PBXTargetDependency */,
+				AA2996751ED9B6CD00B10670 /* PBXTargetDependency */,
 			);
 			name = TrelloSearch;
 			productName = TrelloSearch;
@@ -218,6 +324,16 @@
 			mainGroup = AA2996221ED9B50A00B10670;
 			productRefGroup = AA29962C1ED9B50B00B10670 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = AAC748E71EED743E005824CF /* Products */;
+					ProjectRef = AAC748E61EED743E005824CF /* Charts.xcodeproj */;
+				},
+				{
+					ProductGroup = AA29965D1ED9B68100B10670 /* Products */;
+					ProjectRef = AA29965C1ED9B68100B10670 /* OAuthSwift.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				AA29962A1ED9B50B00B10670 /* TrelloSearch */,
@@ -226,6 +342,72 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		AA2996671ED9B68100B10670 /* OAuthSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OAuthSwift.framework;
+			remoteRef = AA2996661ED9B68100B10670 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AA2996691ED9B68100B10670 /* OAuthSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OAuthSwift.framework;
+			remoteRef = AA2996681ED9B68100B10670 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AA29966B1ED9B68100B10670 /* OAuthSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OAuthSwift.framework;
+			remoteRef = AA29966A1ED9B68100B10670 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AA29966D1ED9B68100B10670 /* OAuthSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OAuthSwift.framework;
+			remoteRef = AA29966C1ED9B68100B10670 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AA29966F1ED9B68100B10670 /* OAuthSwiftDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = OAuthSwiftDemo.app;
+			remoteRef = AA29966E1ED9B68100B10670 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AA2996711ED9B68100B10670 /* OAuthSwiftOSXDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = OAuthSwiftOSXDemo.app;
+			remoteRef = AA2996701ED9B68100B10670 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AA2996731ED9B68100B10670 /* OAuthSwiftTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OAuthSwiftTests.xctest;
+			remoteRef = AA2996721ED9B68100B10670 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AAC748EC1EED743F005824CF /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = AAC748EB1EED743F005824CF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		AAC748EE1EED743F005824CF /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = AAC748ED1EED743F005824CF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		AA2996291ED9B50B00B10670 /* Resources */ = {
@@ -292,6 +474,16 @@
 			isa = PBXTargetDependency;
 			target = AA29962A1ED9B50B00B10670 /* TrelloSearch */;
 			targetProxy = AA29964B1ED9B50B00B10670 /* PBXContainerItemProxy */;
+		};
+		AA2996751ED9B6CD00B10670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OAuthSwift;
+			targetProxy = AA2996741ED9B6CD00B10670 /* PBXContainerItemProxy */;
+		};
+		AAC748FB1EED75D6005824CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = AAC748FA1EED75D6005824CF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -507,6 +699,7 @@
 				AA2996551ED9B50B00B10670 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA2996561ED9B50B00B10670 /* Build configuration list for PBXNativeTarget "TrelloSearchTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +708,7 @@
 				AA2996581ED9B50B00B10670 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA2996591ED9B50B00B10670 /* Build configuration list for PBXNativeTarget "TrelloSearchUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +717,7 @@
 				AA29965B1ED9B50B00B10670 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
