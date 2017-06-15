@@ -1,0 +1,6 @@
+framework module Pods_TrelloSearchTests {
+  umbrella header "Pods-TrelloSearchTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

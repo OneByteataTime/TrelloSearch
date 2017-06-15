@@ -1,0 +1,20 @@
+PODS:
+  - Charts (3.0.2):
+    - Charts/Core (= 3.0.2)
+  - Charts/Core (3.0.2)
+  - KeychainAccess (3.0.2)
+  - OAuthSwift (1.1.2)
+
+DEPENDENCIES:
+  - Charts (~> 3.0)
+  - KeychainAccess (~> 3.0)
+  - OAuthSwift (~> 1.1)
+
+SPEC CHECKSUMS:
+  Charts: 236d6ccdd0ce6feae151d89e829a7397381a21fd
+  KeychainAccess: a986406022dfc7c634c691ad3bec670cc6a32002
+  OAuthSwift: 5aa5659984d3ca3206ba636a9e7a9c6626b2e8bd
+
+PODFILE CHECKSUM: 3cc200af7da94f0c3825bf4ca5e7a8f8e30f9563
+
+COCOAPODS: 1.2.0

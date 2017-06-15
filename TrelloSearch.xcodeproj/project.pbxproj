@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12DC63022F68E008B00AECAF /* Pods_TrelloSearchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D70650F1B3664D0BCCF418 /* Pods_TrelloSearchTests.framework */; };
+		773709A9C6B8E9E976ACC56F /* Pods_TrelloSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8FD1AF7A5A48CD32B4DB6E /* Pods_TrelloSearch.framework */; };
 		AA29962F1ED9B50B00B10670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA29962E1ED9B50B00B10670 /* AppDelegate.swift */; };
 		AA2996311ED9B50B00B10670 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2996301ED9B50B00B10670 /* ViewController.swift */; };
 		AA2996341ED9B50B00B10670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2996321ED9B50B00B10670 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		AA2996391ED9B50B00B10670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2996371ED9B50B00B10670 /* LaunchScreen.storyboard */; };
 		AA2996441ED9B50B00B10670 /* TrelloSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2996431ED9B50B00B10670 /* TrelloSearchTests.swift */; };
 		AA29964F1ED9B50B00B10670 /* TrelloSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA29964E1ED9B50B00B10670 /* TrelloSearchUITests.swift */; };
+		E66E3D9D38C767391A2322C5 /* Pods_TrelloSearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45ED4E83ABD03F3C410093AC /* Pods_TrelloSearchUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,86 +34,16 @@
 			remoteGlobalIDString = AA29962A1ED9B50B00B10670;
 			remoteInfo = TrelloSearch;
 		};
-		AA2996661ED9B68100B10670 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AA29965C1ED9B68100B10670 /* OAuthSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F435027A1A6791B200038A29;
-			remoteInfo = OAuthSwift;
-		};
-		AA2996681ED9B68100B10670 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AA29965C1ED9B68100B10670 /* OAuthSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C48B28021AFA598D00C7DEF6;
-			remoteInfo = OAuthSwiftOSX;
-		};
-		AA29966A1ED9B68100B10670 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AA29965C1ED9B68100B10670 /* OAuthSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C4B6EE1E1BF74CE300443596;
-			remoteInfo = OAuthSwiftTVOS;
-		};
-		AA29966C1ED9B68100B10670 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AA29965C1ED9B68100B10670 /* OAuthSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C40890C01C11B37000E3146A;
-			remoteInfo = OAuthSwiftWatchOS;
-		};
-		AA29966E1ED9B68100B10670 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AA29965C1ED9B68100B10670 /* OAuthSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F451E3C5195B8CD80051434C;
-			remoteInfo = OAuthSwiftDemo;
-		};
-		AA2996701ED9B68100B10670 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AA29965C1ED9B68100B10670 /* OAuthSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C49FD5241AFB5DF500791E1A;
-			remoteInfo = OAuthSwiftOSXDemo;
-		};
-		AA2996721ED9B68100B10670 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AA29965C1ED9B68100B10670 /* OAuthSwift.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C4D50DF71BFB693F0053B624;
-			remoteInfo = OAuthSwiftTests;
-		};
-		AA2996741ED9B6CD00B10670 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AA29965C1ED9B68100B10670 /* OAuthSwift.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = F43502791A6791B200038A29;
-			remoteInfo = OAuthSwift;
-		};
-		AAC748EB1EED743F005824CF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AAC748E61EED743E005824CF /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 06165F241D8110E600722320;
-			remoteInfo = Charts;
-		};
-		AAC748ED1EED743F005824CF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AAC748E61EED743E005824CF /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 06165F2E1D8110E600722320;
-			remoteInfo = ChartsTests;
-		};
-		AAC748FA1EED75D6005824CF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AAC748E61EED743E005824CF /* Charts.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 06165F231D8110E600722320;
-			remoteInfo = Charts;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BEC65DEFE0726F70B3BFF74 /* Pods-TrelloSearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrelloSearchUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrelloSearchUITests/Pods-TrelloSearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		36FE200D2E5D4FB1CD1D94AA /* Pods-TrelloSearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrelloSearchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrelloSearchTests/Pods-TrelloSearchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		45ED4E83ABD03F3C410093AC /* Pods_TrelloSearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrelloSearchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8FD1AF7A5A48CD32B4DB6E /* Pods_TrelloSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrelloSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CFBF6F13C8C9D96D4ED13B /* Pods-TrelloSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrelloSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrelloSearch/Pods-TrelloSearch.release.xcconfig"; sourceTree = "<group>"; };
+		882A3019595724289CC14FB8 /* Pods-TrelloSearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrelloSearchUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrelloSearchUITests/Pods-TrelloSearchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A0D70650F1B3664D0BCCF418 /* Pods_TrelloSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrelloSearchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA29962B1ED9B50B00B10670 /* TrelloSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrelloSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA29962E1ED9B50B00B10670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA2996301ED9B50B00B10670 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -124,8 +57,8 @@
 		AA29964A1ED9B50B00B10670 /* TrelloSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrelloSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA29964E1ED9B50B00B10670 /* TrelloSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrelloSearchUITests.swift; sourceTree = "<group>"; };
 		AA2996501ED9B50B00B10670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA29965C1ED9B68100B10670 /* OAuthSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OAuthSwift.xcodeproj; path = "../GitHub Repositories/OAuthSwift/OAuthSwift.xcodeproj"; sourceTree = "<group>"; };
-		AAC748E61EED743E005824CF /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../GitHub Repositories/Charts/Charts.xcodeproj"; sourceTree = "<group>"; };
+		B06920F6A10E9B5027BA1C5D /* Pods-TrelloSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrelloSearchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrelloSearchTests/Pods-TrelloSearchTests.release.xcconfig"; sourceTree = "<group>"; };
+		C964E75F7A05BB6F1FA1E9A1 /* Pods-TrelloSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrelloSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrelloSearch/Pods-TrelloSearch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				773709A9C6B8E9E976ACC56F /* Pods_TrelloSearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12DC63022F68E008B00AECAF /* Pods_TrelloSearchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E66E3D9D38C767391A2322C5 /* Pods_TrelloSearchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,12 +92,12 @@
 		AA2996221ED9B50A00B10670 = {
 			isa = PBXGroup;
 			children = (
-				AAC748E61EED743E005824CF /* Charts.xcodeproj */,
 				AA29962D1ED9B50B00B10670 /* TrelloSearch */,
 				AA2996421ED9B50B00B10670 /* TrelloSearchTests */,
 				AA29964D1ED9B50B00B10670 /* TrelloSearchUITests */,
 				AA29962C1ED9B50B00B10670 /* Products */,
-				AA29965C1ED9B68100B10670 /* OAuthSwift.xcodeproj */,
+				DC6C6E0FF6208EDE9C0D1C0E /* Pods */,
+				C76435733F626E495909F636 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -206,27 +142,27 @@
 			path = TrelloSearchUITests;
 			sourceTree = "<group>";
 		};
-		AA29965D1ED9B68100B10670 /* Products */ = {
+		C76435733F626E495909F636 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AA2996671ED9B68100B10670 /* OAuthSwift.framework */,
-				AA2996691ED9B68100B10670 /* OAuthSwift.framework */,
-				AA29966B1ED9B68100B10670 /* OAuthSwift.framework */,
-				AA29966D1ED9B68100B10670 /* OAuthSwift.framework */,
-				AA29966F1ED9B68100B10670 /* OAuthSwiftDemo.app */,
-				AA2996711ED9B68100B10670 /* OAuthSwiftOSXDemo.app */,
-				AA2996731ED9B68100B10670 /* OAuthSwiftTests.xctest */,
+				5D8FD1AF7A5A48CD32B4DB6E /* Pods_TrelloSearch.framework */,
+				A0D70650F1B3664D0BCCF418 /* Pods_TrelloSearchTests.framework */,
+				45ED4E83ABD03F3C410093AC /* Pods_TrelloSearchUITests.framework */,
 			);
-			name = Products;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AAC748E71EED743E005824CF /* Products */ = {
+		DC6C6E0FF6208EDE9C0D1C0E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AAC748EC1EED743F005824CF /* Charts.framework */,
-				AAC748EE1EED743F005824CF /* ChartsTests.xctest */,
+				C964E75F7A05BB6F1FA1E9A1 /* Pods-TrelloSearch.debug.xcconfig */,
+				63CFBF6F13C8C9D96D4ED13B /* Pods-TrelloSearch.release.xcconfig */,
+				36FE200D2E5D4FB1CD1D94AA /* Pods-TrelloSearchTests.debug.xcconfig */,
+				B06920F6A10E9B5027BA1C5D /* Pods-TrelloSearchTests.release.xcconfig */,
+				0BEC65DEFE0726F70B3BFF74 /* Pods-TrelloSearchUITests.debug.xcconfig */,
+				882A3019595724289CC14FB8 /* Pods-TrelloSearchUITests.release.xcconfig */,
 			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,15 +172,16 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA2996531ED9B50B00B10670 /* Build configuration list for PBXNativeTarget "TrelloSearch" */;
 			buildPhases = (
+				13E0922C7A5CE0B686E1A4D4 /* [CP] Check Pods Manifest.lock */,
 				AA2996271ED9B50B00B10670 /* Sources */,
 				AA2996281ED9B50B00B10670 /* Frameworks */,
 				AA2996291ED9B50B00B10670 /* Resources */,
+				CC44BA8D93DF87307D9B5773 /* [CP] Embed Pods Frameworks */,
+				A7C22AEEF2398C476687A502 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AAC748FB1EED75D6005824CF /* PBXTargetDependency */,
-				AA2996751ED9B6CD00B10670 /* PBXTargetDependency */,
 			);
 			name = TrelloSearch;
 			productName = TrelloSearch;
@@ -255,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA2996561ED9B50B00B10670 /* Build configuration list for PBXNativeTarget "TrelloSearchTests" */;
 			buildPhases = (
+				67B6720C2B8B90C4D3B8A82B /* [CP] Check Pods Manifest.lock */,
 				AA29963B1ED9B50B00B10670 /* Sources */,
 				AA29963C1ED9B50B00B10670 /* Frameworks */,
 				AA29963D1ED9B50B00B10670 /* Resources */,
+				19E936E7CA8A9E774F40B504 /* [CP] Embed Pods Frameworks */,
+				CD7780FC3685CAB71E970D04 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -273,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA2996591ED9B50B00B10670 /* Build configuration list for PBXNativeTarget "TrelloSearchUITests" */;
 			buildPhases = (
+				4C7CDB07EB1A99A40390746B /* [CP] Check Pods Manifest.lock */,
 				AA2996461ED9B50B00B10670 /* Sources */,
 				AA2996471ED9B50B00B10670 /* Frameworks */,
 				AA2996481ED9B50B00B10670 /* Resources */,
+				69AAADABED9EF9121167E1F8 /* [CP] Embed Pods Frameworks */,
+				ACE8E0B35FB90B7D808904AD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,6 +242,7 @@
 				TargetAttributes = {
 					AA29962A1ED9B50B00B10670 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7WUX5BA87Z;
 						ProvisioningStyle = Automatic;
 					};
 					AA29963E1ED9B50B00B10670 = {
@@ -324,16 +268,6 @@
 			mainGroup = AA2996221ED9B50A00B10670;
 			productRefGroup = AA29962C1ED9B50B00B10670 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = AAC748E71EED743E005824CF /* Products */;
-					ProjectRef = AAC748E61EED743E005824CF /* Charts.xcodeproj */;
-				},
-				{
-					ProductGroup = AA29965D1ED9B68100B10670 /* Products */;
-					ProjectRef = AA29965C1ED9B68100B10670 /* OAuthSwift.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				AA29962A1ED9B50B00B10670 /* TrelloSearch */,
@@ -342,72 +276,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		AA2996671ED9B68100B10670 /* OAuthSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = OAuthSwift.framework;
-			remoteRef = AA2996661ED9B68100B10670 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		AA2996691ED9B68100B10670 /* OAuthSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = OAuthSwift.framework;
-			remoteRef = AA2996681ED9B68100B10670 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		AA29966B1ED9B68100B10670 /* OAuthSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = OAuthSwift.framework;
-			remoteRef = AA29966A1ED9B68100B10670 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		AA29966D1ED9B68100B10670 /* OAuthSwift.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = OAuthSwift.framework;
-			remoteRef = AA29966C1ED9B68100B10670 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		AA29966F1ED9B68100B10670 /* OAuthSwiftDemo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = OAuthSwiftDemo.app;
-			remoteRef = AA29966E1ED9B68100B10670 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		AA2996711ED9B68100B10670 /* OAuthSwiftOSXDemo.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = OAuthSwiftOSXDemo.app;
-			remoteRef = AA2996701ED9B68100B10670 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		AA2996731ED9B68100B10670 /* OAuthSwiftTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = OAuthSwiftTests.xctest;
-			remoteRef = AA2996721ED9B68100B10670 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		AAC748EC1EED743F005824CF /* Charts.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Charts.framework;
-			remoteRef = AAC748EB1EED743F005824CF /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		AAC748EE1EED743F005824CF /* ChartsTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ChartsTests.xctest;
-			remoteRef = AAC748ED1EED743F005824CF /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		AA2996291ED9B50B00B10670 /* Resources */ = {
@@ -435,6 +303,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13E0922C7A5CE0B686E1A4D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		19E936E7CA8A9E774F40B504 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrelloSearchTests/Pods-TrelloSearchTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C7CDB07EB1A99A40390746B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		67B6720C2B8B90C4D3B8A82B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		69AAADABED9EF9121167E1F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrelloSearchUITests/Pods-TrelloSearchUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7C22AEEF2398C476687A502 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrelloSearch/Pods-TrelloSearch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACE8E0B35FB90B7D808904AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrelloSearchUITests/Pods-TrelloSearchUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC44BA8D93DF87307D9B5773 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrelloSearch/Pods-TrelloSearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD7780FC3685CAB71E970D04 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TrelloSearchTests/Pods-TrelloSearchTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AA2996271ED9B50B00B10670 /* Sources */ = {
@@ -474,16 +480,6 @@
 			isa = PBXTargetDependency;
 			target = AA29962A1ED9B50B00B10670 /* TrelloSearch */;
 			targetProxy = AA29964B1ED9B50B00B10670 /* PBXContainerItemProxy */;
-		};
-		AA2996751ED9B6CD00B10670 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = OAuthSwift;
-			targetProxy = AA2996741ED9B6CD00B10670 /* PBXContainerItemProxy */;
-		};
-		AAC748FB1EED75D6005824CF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Charts;
-			targetProxy = AAC748FA1EED75D6005824CF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -604,8 +600,10 @@
 		};
 		AA2996541ED9B50B00B10670 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C964E75F7A05BB6F1FA1E9A1 /* Pods-TrelloSearch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7WUX5BA87Z;
 				INFOPLIST_FILE = TrelloSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jastech.TrelloSearch;
@@ -616,8 +614,10 @@
 		};
 		AA2996551ED9B50B00B10670 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63CFBF6F13C8C9D96D4ED13B /* Pods-TrelloSearch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7WUX5BA87Z;
 				INFOPLIST_FILE = TrelloSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jastech.TrelloSearch;
@@ -628,6 +628,7 @@
 		};
 		AA2996571ED9B50B00B10670 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36FE200D2E5D4FB1CD1D94AA /* Pods-TrelloSearchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -642,6 +643,7 @@
 		};
 		AA2996581ED9B50B00B10670 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B06920F6A10E9B5027BA1C5D /* Pods-TrelloSearchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -656,6 +658,7 @@
 		};
 		AA29965A1ED9B50B00B10670 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BEC65DEFE0726F70B3BFF74 /* Pods-TrelloSearchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TrelloSearchUITests/Info.plist;
@@ -669,6 +672,7 @@
 		};
 		AA29965B1ED9B50B00B10670 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 882A3019595724289CC14FB8 /* Pods-TrelloSearchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = TrelloSearchUITests/Info.plist;

@@ -9,6 +9,7 @@
 import UIKit
 import OAuthSwift
 import Charts
+import KeychainAccess
 
 class ViewController: UIViewController {
     
@@ -36,7 +37,7 @@ class ViewController: UIViewController {
     }
 
     func startUp() {
-    
+        
         // 1 Create OAuth2Swift object
         let oauthswift = OAuth1Swift(
             consumerKey:    "AppID",
@@ -48,26 +49,53 @@ class ViewController: UIViewController {
         
         self.oauthswift = oauthswift
         
-        let handler = SafariURLHandler(viewController: self, oauthSwift: self.oauthswift!)
-        handler.presentCompletion = {
-            print("Safari presented")
+        getOAuthCredential(oauthswift)
+        
+        
+        if (oauthswift.client.credential.oauthTokenSecret.characters.count > 0)  {
+            self.testTrello(oauthswift)
         }
-        handler.dismissCompletion = {
-            print("Safari dismissed")
-        }
-        
-        oauthswift.authorizeURLHandler = handler
-        
-        
-        oauthswift.authorize(withCallbackURL: URL(string: "trello-search://oauth-callback/callback/trello")!,
-            success: { credential, response, parameters in
-                self.testTrello(oauthswift)
-            },
-            failure: { error in
-            print(error.localizedDescription, terminator: "")
+        else {
+            let handler = SafariURLHandler(viewController: self, oauthSwift: self.oauthswift!)
+            handler.presentCompletion = {
+                print("Safari presented")
             }
-        )
+            handler.dismissCompletion = {
+                print("Safari dismissed")
+            }
+            
+            oauthswift.authorizeURLHandler = handler
+            
+            
+            oauthswift.authorize(withCallbackURL: URL(string: "trello-search://oauth-callback/callback/trello")!,
+                                 success: { credential, response, parameters in
+                                    self.saveOAuthCredential(oauthswift)
+            },
+                                 failure: { error in
+                                    print(error.localizedDescription, terminator: "")
+            }
+            )
+        }
+    }
+    
+    func saveOAuthCredential(_ oauthswift : OAuth1Swift) {
+        let keychain = Keychain(service: "com.jastech.trello-search")
+        keychain[string: "trello_search_token"] = oauthswift.client.credential.oauthToken
+        keychain[string: "trello_search_secret"] = oauthswift.client.credential.oauthTokenSecret
+
+        self.testTrello(oauthswift)
+    }
+    
+    func getOAuthCredential(_ oauthswift : OAuth1Swift) {
+        let keychain = Keychain(service: "com.jastech.trello-search")
+        if let token = keychain[string: "trello_search_token"] {
+            let secret = keychain[string: "trello_search_secret"]
+         
+            oauthswift.client.credential.oauthToken = token
+            oauthswift.client.credential.oauthTokenSecret = secret!
+        }
         
+        return
     }
     
     func setChart(dataPoints: [String], values: [Double]) {
@@ -91,8 +119,9 @@ class ViewController: UIViewController {
         let _ = oauthswift.client.get(
             "https://trello.com/1/members/me/boards",
             success: { response in
-                let dataString = response.string!
-                print(dataString)
+                if let dataString = response.string {
+                    print("Got stuff...")
+                }
         }, failure: { error in
             print(error)
         }
