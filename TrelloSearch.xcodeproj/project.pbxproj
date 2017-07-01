@@ -16,6 +16,8 @@
 		AA2996391ED9B50B00B10670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA2996371ED9B50B00B10670 /* LaunchScreen.storyboard */; };
 		AA2996441ED9B50B00B10670 /* TrelloSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2996431ED9B50B00B10670 /* TrelloSearchTests.swift */; };
 		AA29964F1ED9B50B00B10670 /* TrelloSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA29964E1ED9B50B00B10670 /* TrelloSearchUITests.swift */; };
+		AA61B71F1EFE9FFA00A33DBC /* OAuth.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA61B71E1EFE9FFA00A33DBC /* OAuth.plist */; };
+		AA61B7211EFEA39900A33DBC /* readme.md in Sources */ = {isa = PBXBuildFile; fileRef = AA61B7201EFEA39900A33DBC /* readme.md */; };
 		E66E3D9D38C767391A2322C5 /* Pods_TrelloSearchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45ED4E83ABD03F3C410093AC /* Pods_TrelloSearchUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,8 @@
 		AA29964A1ED9B50B00B10670 /* TrelloSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrelloSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA29964E1ED9B50B00B10670 /* TrelloSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrelloSearchUITests.swift; sourceTree = "<group>"; };
 		AA2996501ED9B50B00B10670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA61B71E1EFE9FFA00A33DBC /* OAuth.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = OAuth.plist; sourceTree = "<group>"; };
+		AA61B7201EFEA39900A33DBC /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		B06920F6A10E9B5027BA1C5D /* Pods-TrelloSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrelloSearchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrelloSearchTests/Pods-TrelloSearchTests.release.xcconfig"; sourceTree = "<group>"; };
 		C964E75F7A05BB6F1FA1E9A1 /* Pods-TrelloSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrelloSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrelloSearch/Pods-TrelloSearch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,10 +120,12 @@
 			children = (
 				AA29962E1ED9B50B00B10670 /* AppDelegate.swift */,
 				AA2996301ED9B50B00B10670 /* ViewController.swift */,
+				AA61B71E1EFE9FFA00A33DBC /* OAuth.plist */,
 				AA2996321ED9B50B00B10670 /* Main.storyboard */,
 				AA2996351ED9B50B00B10670 /* Assets.xcassets */,
 				AA2996371ED9B50B00B10670 /* LaunchScreen.storyboard */,
 				AA29963A1ED9B50B00B10670 /* Info.plist */,
+				AA61B7201EFEA39900A33DBC /* readme.md */,
 			);
 			path = TrelloSearch;
 			sourceTree = "<group>";
@@ -284,6 +290,7 @@
 			files = (
 				AA2996391ED9B50B00B10670 /* LaunchScreen.storyboard in Resources */,
 				AA2996361ED9B50B00B10670 /* Assets.xcassets in Resources */,
+				AA61B71F1EFE9FFA00A33DBC /* OAuth.plist in Resources */,
 				AA2996341ED9B50B00B10670 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,6 +455,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA2996311ED9B50B00B10670 /* ViewController.swift in Sources */,
+				AA61B7211EFEA39900A33DBC /* readme.md in Sources */,
 				AA29962F1ED9B50B00B10670 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

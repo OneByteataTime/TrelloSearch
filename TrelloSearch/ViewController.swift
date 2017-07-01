@@ -38,10 +38,21 @@ class ViewController: UIViewController {
 
     func startUp() {
         
+        var consumerKey = "key"
+        var consumerSecret = "secret"
+        
+        let oauthKeysPath = Bundle.main.path(forResource: "OAuth", ofType: "plist")
+        
+        if let arrayOfItems = NSDictionary(contentsOfFile: oauthKeysPath!) {
+            consumerKey = arrayOfItems["ApplicationKey"] as! String
+            consumerSecret = arrayOfItems["ClientSecret"] as! String
+        }
+        
+        
         // 1 Create OAuth2Swift object
         let oauthswift = OAuth1Swift(
-            consumerKey:    "AppID",
-            consumerSecret: "ClientID",
+            consumerKey:    consumerKey,
+            consumerSecret: consumerSecret,
             requestTokenUrl:    "https://trello.com/1/OAuthGetRequestToken?scope=read&name=iosTrelloSearch",
             authorizeUrl:       "https://trello.com/1/OAuthAuthorizeToken?scope=read&name=iosTrelloSearch",
             accessTokenUrl:     "https://trello.com/1/OAuthGetAccessToken?scope=read&name=iosTrelloSearch"
